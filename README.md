@@ -26,7 +26,8 @@ To save you from all the hassle of putting in personal information, I will link 
 ## Installation / OOBE
 Of course, before installing, make sure to backup all your files on an external drive. Also, install Windows onto an NVME for the best performance. I use [this NVME](https://sabrent.com/products/sb-rocket-nvme4-1tb) but to be honest it's up to personal preference. <sub>This NVME in particular went on sale on Amazon for $50, so try to find deals like that.</sub>
 
-If you followed the first part properly, you will see this when booting into the OOBE. The error message should say OOBEREGION. ![OOBEREGION](https://github.com/user-attachments/assets/540035b5-ae64-4644-b8cb-650da28e7840)
+If you followed the first part properly, you will see this when booting into the OOBE. The error message should say OOBEREGION. 
+![OOBEREGION](https://github.com/user-attachments/assets/540035b5-ae64-4644-b8cb-650da28e7840)
 
 This means you set the region to **American (World)** and the bloat will not be installed! Great! You are already closer to a better Windows.
 
