@@ -13,23 +13,28 @@ Here is a short outline of the things that will be covered in this guide. It is 
     - Bypass Microsoft Account Requirements
 - 3. Post-OOBE
    - Tools to run
-   - Optional Software for QoL
+   - Optional QoL Software
    - Mod your apps
+     - Discord
+     - Spotify
  
 
 ## Pre-Installation
-Before installing Windows (10/11) while you are still in the media creation tool for the least amount of bloatware **SET YOUR REGION TO American (World)**. I cannot stress this enough because it will remove so much initial bloat. This removes any 3rd party applications that Windows tries to install on boot (For example, candy crush, tiktok, solitaire) and leave your computer an almost blank slate. Some services like the Microsoft Store have been reported to be broken. If you don't care about that you can continue using World. If you do care, read the section below on installing the LTSC version of Windows.
+Before installing Windows (10/11) while you are still in the media creation tool for the least amount of bloatware **SET YOUR REGION TO American (World)**. I cannot stress this enough because it will remove so much initial bloat. This removes any 3rd party applications that Windows tries to install on boot (For example, candy crush, tiktok, solitare) and leave your computer as an almost blank slate. Some services like the Microsoft Store have been reported to be broken on some installations of World. I have not had this issue occurr for me and if you don't care about that you can continue using World. If you do care, read the section below on installing the Enterprise LTSC version of Windows.
+
+If you really want to prepare, use [Ninite](https://ninite.com/) to get a complete auto installer of apps once when you are at the desktop environment. For the burning tool you can just use the media creation tool or [Rufus](https://rufus.ie/en/) if you are installing via an ISO.
 
 ### Installing Enterprise LTSC
-To save you from all the hassle of putting in personal information, I will link the direct download for [Windows 11 LTSC here](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso) and the [Windows 10 version here](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso). The setup should be mostly similar but there will be even less bloat installed by default.
+To save you from all the hassle of putting in personal information and making a company, I will link the direct download for [Windows 11 LTSC here](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso) and the [Windows 10 version here](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso). The OOBE setup should be practically the same, except the thing that makes LTSC better is that it **removes even more bloat than World**! The only things that are left on the device are (I'm not sure yet, I haven't tested it yet.)
 
 ## Installation / OOBE
-Of course, before installing, make sure to backup all your files on an external drive. Also, install Windows onto an NVME for the best performance. I use [this NVME](https://sabrent.com/products/sb-rocket-nvme4-1tb) but to be honest it's up to personal preference. <sub>This NVME in particular went on sale on Amazon for $50, so try to find deals like that.</sub>
+Of course, before installing, make sure to backup all your files on an external drive. Also, install Windows onto an NVME for the best performance. I use [this NVME](https://sabrent.com/products/sb-rocket-nvme4-1tb) but it's up to personal preference. <sub>This NVME in particular went on sale on Amazon for $49, so try to find deals like that.</sub>
 
 If you followed the first part properly, you will see this when booting into the OOBE. The error message should say OOBEREGION. 
+
 ![OOBEREGION](https://github.com/user-attachments/assets/540035b5-ae64-4644-b8cb-650da28e7840)
 
-This means you set the region to **American (World)** and the bloat will not be installed! Great! You are already closer to a better Windows.
+This means you set the region to **American (World)** and the bloat will not be installed! Great! You are already closer to a fresher Windows.
 
 ### LTSC Installation
 
