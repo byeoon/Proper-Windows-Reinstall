@@ -1,7 +1,7 @@
 # Proper Windows Reinstallation Guide <a href="https://ko-fi.com/byeoon">![Buy](https://img.shields.io/badge/Buy%20me%20a%20coffee!-byeoon-blue)</a>
 **This guide is still being updated! Please be patient.** (Also thank you @deepytux for helping me with some sections!)
 
-### Intro
+## Intro
 This guide helps power users reconfigure a fresh system to squeeze out as much performance and user safety as possible. This is a guide made for Windows 11, but most parts are backwards comaptible. I personally do not use modded installations as they will always have random side effects such as not being able to use certain game launchers, core features being missing, and other things too. You can get the same, if not better performance just from following this guide. There was also [a video made by Eric Parker](https://www.youtube.com/watch?v=nyMHBKlNk9c&pp=ygUVZXJpYyBwYXJrZXIgbW9kZGVkIG9z) which talks about this more in detail.
 
 ### Index
@@ -46,7 +46,9 @@ In recent Windows feature updates, they forcibly push you to have an online acco
 Make sure to turn off all of the boxes for Microsoft to collect your data, or make them as optional and minimal as possible. Don't worry though, as once we reach the desktop we can completely get rid of telemetry. Once all of that is done, you should finally see your desktop!
 
 ## Post-OOBE
-There are a few tools and commands that you should run and install first. This part is where everyone might forget to do or get stuck on. The first thing that I made sure to download was [O&O ShutUp 10++](https://www.oo-software.com/en/shutup10), [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)/[Windows11Debloater](https://github.com/Raphire/Win11Debloat), [Remove MS Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge), [Microsoft Activation Scripts](https://massgrave.dev/) (optional), and [Chris Titus Winutils](https://github.com/ChrisTitusTech/winutil). All of these play a crucial role in fine tuning your new Windows experience. If you want to tweak these yourself, skip to the next category. If you want a step-by-step configuration for each of these, keep reading.
+There are a few tools and commands that you should run and install first. This part is where everyone might forget to do or get stuck on. The first thing that I made sure to download was [O&O ShutUp 10++](https://www.oo-software.com/en/shutup10), [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)/[Windows11Debloater](https://github.com/Raphire/Win11Debloat), [Remove MS Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge), [Microsoft Activation Scripts](https://massgrave.dev/) (optional), and [Chris Titus Winutils](https://github.com/ChrisTitusTech/winutil). All of these play a crucial role in fine tuning your new Windows experience. If you want to tweak these yourself, skip to the next category. If you want to use my optimized configuration, the designated files will be put in the repository.
+
+(TODO: Add O&OSU10 config in the repo)
 
 
 
