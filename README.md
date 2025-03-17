@@ -37,9 +37,6 @@ If you followed the first part properly, you will see this when booting into the
 
 This means you set the region to **American (World)** and the bloat will not be installed! Great! You are already closer to a fresher Windows.
 
-### LTSC Installation
-
-
 ### Local Account Setup
 In recent Windows feature updates, they forcibly push you to have an online account. They intentionally lock you out of making a local one during the initial setup but some smart people have figured out ways around this. Currently, the easiest way as of Windows 11 24H2 is to run a bypass command in the developer console. **Press <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> to open the developer console**. Once this is open, run `WinJS.Application.restart("ms-chx://LOCALONLY")`. You will now skip to the pop up for creating a local account, enter your desired username and password and proceed with the setup like normal. 
 
@@ -48,7 +45,9 @@ Make sure to turn off all of the boxes for Microsoft to collect your data, or ma
 ## Post-OOBE
 There are a few tools and commands that you should run and install first. This part is where everyone might forget to do or get stuck on. The first thing that I made sure to download was [O&O ShutUp 10++](https://www.oo-software.com/en/shutup10), [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)/[Windows11Debloater](https://github.com/Raphire/Win11Debloat), [Remove MS Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge), [Microsoft Activation Scripts](https://massgrave.dev/) (optional), and [Chris Titus Winutils](https://github.com/ChrisTitusTech/winutil). All of these play a crucial role in fine tuning your new Windows experience. If you want to tweak these yourself, skip to the next category. If you want to use my optimized configuration, the designated files will be put in the repository.
 
-(TODO: Add O&OSU10 config in the repo)
+### Optional Quality of Life Software
+There are some other tools that may help you adjust Windows to how you like it. [Winaero Tweaker](https://winaero.com)
+
 
 
 
