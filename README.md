@@ -7,8 +7,6 @@ This guide helps power users reconfigure a fresh system to squeeze out as much p
 ### Index
 Here is a short outline of the things that will be covered in this guide.
 - 1. Pre-Installation
-  - LTSC Edition
-  - World Region (Not Recommended)
 - 2. OOBE
     - Bypass Microsoft Account Requirements
     - Force Local Account
@@ -19,14 +17,8 @@ Here is a short outline of the things that will be covered in this guide.
 ## Pre-Installation
 There are two different ways to install Windows, it depends on personal preference. Before installing anything new, make sure to backup all your files on an external drive. It is reccomended to install Windows onto an NVME for the best performance. I use [this NVME](https://sabrent.com/products/sb-rocket-nvme4-1tb) but it's up to personal preference. <sub>This NVME in particular went on sale on Amazon for $49.</sub>
 
-
 ### Enterprise LTSC
-The direct downloads for [Windows 11 LTSC is here](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso) and the [Windows 10 version here](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso). Since these are ISO files, you will need to burn it to a flash drive. I recommend using [Rufus](https://rufus.com) to do that. Enterprise LTSC is the best way to install as it removes additional bloat from your system and is overall more stable. LTSC does not get as many updates because it is meant for businesses who need a reliable version of Windows (think IoT devices).
-
-### English (World) (Not Reccomended!)
-Before installing Windows (10/11) while you are still in the media creation tool, set your region to American (World). If you do not see the option in the media tool, you will have to do that in the setup itself (image below).  This removes any 3rd party applications and bloat that Windows tries to install on start such as Candy Crush, TikTok, and Solitare. **Some services like the Microsoft Store, the clock, and other core functions have been reported to be broken on some installations**. If you don't care about those potential risks you can continue using World.
-
-<img src="https://github.com/user-attachments/assets/13342b8b-4fa7-439f-aa45-d8b067c760b8" height="480px" width="480px">
+The direct downloads for [Windows 11 LTSC is here](https://drive.massgrave.dev/en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso) and the [Windows 10 version here](https://drive.massgrave.dev/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso). Since these are ISO files, you will need to burn it to a flash drive. I recommend using [Rufus](https://rufus.ie/en/) to do that. Enterprise LTSC is the best way to install as it removes additional bloat from your system and is overall more stable. LTSC does not get as many updates because it is meant for businesses who need a reliable version of Windows (think of IoT devices).
 
 ## OOBE
 
